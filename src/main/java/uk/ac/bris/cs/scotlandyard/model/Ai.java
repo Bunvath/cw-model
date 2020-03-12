@@ -5,7 +5,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import javax.annotation.Nonnull;
 
 /**
- * All CPU (Ai) players should implement this interface and be on the classpath. hi my name is mohammedddfd
+ * All CPU (Ai) players should implement this interface and be on the classpath.
+ */
 public interface Ai {
 
 	/**
@@ -37,3 +38,4 @@ public interface Ai {
 	default void onTerminate() {}
 
 }
+
